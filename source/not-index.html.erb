@@ -1,18 +1,21 @@
 ---
-title: Bye Middleman
+title: Not Home
 test_list:
  - one
  - two
  - three
+url: not-index.html
 ---
 
+<div class="not-home">
+	<%= image_tag 'mug.png', class: "logo" %>
 
-<h1>List</h1>
-<ol>
-  <% current_page.data.test_list.each do |f| %>
-  <li><%= f %></li>
-  <% end %>
+	<h1>List</h1>
 
-  <%= test_me_method("something nice") %>
+	<% current_page.data.test_list.each do |f| %>
+		<p><%= f %></p>
+	<% end %>
 
-</ol>
+	<h4>A random helper</h4>
+	<h5><%= test_me_method("something nice") %></h5>
+</div>

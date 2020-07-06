@@ -1,0 +1,5 @@
+<div id="header">
+	<% sitemap.resources.each do |resource| %>
+	    <li><%= link_to resource.data.title, resource.data.url %></li>
+	<% end %>
+</div>

@@ -1,24 +1,68 @@
 body {
   background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  color: #696969;
+  font-family: 'Bangers', cursive;
+  padding: 0 1rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
-a {
-  color: rgba(#000, 0.7);
+.logo {
+  margin-bottom: 1rem;
+  width: 10rem;
+}
 
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
+.index {
+  font-family: 'Anton', sans-serif;
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  button {
+    background-color: #A46A43;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    outline: none;
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.not-home{
+  font-family: 'Anton', sans-serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  list-style-type: none;
+  padding: 2rem 0;
+  li {
+    padding-right: 0.25rem;
+    color: #888888;
+    font-size: 1.15rem;
+    font-family: "Anton";
+  }
+  li:nth-child(5) {
+    color: red;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:visited, &:hover, &:active {
+      color: inherit;
+    }
+  }
 }
