@@ -4,3 +4,5 @@
 
 In my humble opinion, I much rather use Middleman over Jekyll 👊🏽   
 
+
+[Preview Me](https://middleman-joc.netlify.app/)
