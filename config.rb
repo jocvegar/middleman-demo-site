@@ -37,6 +37,9 @@ page '/*.txt', layout: false
 #   end
 # end
 
+require "helpers/custom_helpers"
+helpers CustomHelpers
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 

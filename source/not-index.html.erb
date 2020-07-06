@@ -1,0 +1,18 @@
+---
+title: Bye Middleman
+test_list:
+ - one
+ - two
+ - three
+---
+
+
+<h1>List</h1>
+<ol>
+  <% current_page.data.test_list.each do |f| %>
+  <li><%= f %></li>
+  <% end %>
+
+  <%= test_me_method("something nice") %>
+
+</ol>
