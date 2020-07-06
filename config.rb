@@ -49,5 +49,5 @@ configure :build do
 end
 
 activate :livereload
-activate :directory_indexes
+# activate :directory_indexes
 
