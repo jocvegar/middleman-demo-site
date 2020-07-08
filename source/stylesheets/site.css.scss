@@ -1,10 +1,16 @@
+html {
+  height: 100%;
+}
 body {
   background-color: #fbc547;
   color: #696969;
   font-family: 'Bangers', cursive;
   padding: 0 1rem;
   text-align: center;
-  box-sizing: border-box;
+  // box-sizing: border-box;
+  min-height: 100%;
+  display:flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -35,7 +41,7 @@ body {
   }
 }
 
-.not-home{
+.not-home {
   font-family: 'Anton', sans-serif;
 }
 
@@ -65,4 +71,9 @@ body {
       color: inherit;
     }
   }
+}
+
+footer {
+  margin-top: auto;
+  padding: 2em;
 }
